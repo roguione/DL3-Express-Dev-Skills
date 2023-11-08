@@ -14,38 +14,24 @@ Now it's time to practice by doing the very same thing, but for a different data
 
 ## Setup
 
-1. Move into your `~/code` folder.
-
-2. Scaffold a new app named `express-dev-skills` using express generator (don't forget the `-e` option).
-
-3. `cd express-dev-skills` and install the Node modules with `npm i`.
-
-4. Make the project a local git repo:  `git init`
-
-5. Create a new repo on your **PERSONAL** GitHub account named `express-dev-skills`.  Copy the new repo's URL for use in the next step...
-
-6. Back in Terminal, add the remote:  `git remote add origin <Paste the URL>`
+1. Fork this repo.
+2. Move into your `~/sei/homework` folder and clone this repo.
+3. Scaffold a new app named `express-dev-skills` using express generator (don't forget the `-e` option) in the newly cloned folder.
+4. `cd express-dev-skills` and install the Node modules with `npm i`.
+5. Continue work in your text-editor `code .`
 
 As you make progress, be sure to commit and push your progress.
-
-As always, make the first commit using:
-
-```
-git add -A
-git commit -m "Initial commit"
-git push -u origin main
-```
 
 Then subsequent pushes can be made using:
 
 ```
+git add . && git comment -m "<your-message>"
 git push
 ```
 
 ## Exercises
 
 The goal of the lab is to put in a rep doing everything that you did during the _Express - Routers & Controllers_ lesson:
-
 
 - Be sure to create an array of "fake" data representing some of your awesome developer skills. The specific properties describing a skill object is up to you! 
 
@@ -73,7 +59,7 @@ The goal of the lab is to put in a rep doing everything that you did during the 
 
 - Add styling or use a CSS framework to make the app look better :)
 
-### This lab combined with Part 2, which builds upon this lab, is a deliverable. Please submit the URL of your `express-dev-skills` GH repo as directed.
+### This lab combined with Part 2, which builds upon this lab, is a deliverable. Please submit the URL of your `DL3-Express-Dev-Skills` lab repo as directed.
 
 <br/>
 <br/>
@@ -92,7 +78,7 @@ In recent lessons you saw how to use HTML forms and Express middleware, such as:
 
 to perform **Create**, **Update** & **Delete** data operations in an Express application.
 
-This lab builds upon the `express-dev-skills` project you created in the _My Dev Skills - Part 1_ lab where the **Read** data operations were implemented.
+This lab builds upon the `express-dev-skills` project you created in the `DL3-Express-Dev-Skills` lab where the **Read** data operations were implemented.
 
 ##### This Lab is a Deliverable
 
