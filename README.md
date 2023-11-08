@@ -59,7 +59,9 @@ The goal of the lab is to put in a rep doing everything that you did during the 
 
 - Add styling or use a CSS framework to make the app look better :)
 
-### This lab combined with Part 2, which builds upon this lab, is a deliverable. Please submit the URL of your `DL3-Express-Dev-Skills` lab repo as directed.
+### This lab combined with Part 2, which builds upon this lab, is a deliverable. 
+
+Please submit the URL of your `DL3-Express-Dev-Skills` lab repo as directed.
 
 <br/>
 <br/>
@@ -114,4 +116,5 @@ Note: All routes should follow those described in the [RESTful/Resourceful routi
 	```
 
 ### This Lab is a Deliverable
-Please submit the URL of your `express-dev-skills` GH repo as directed.
+
+Please submit the URL of your `DL3-Express-Dev-Skills` lab repo as directed.
