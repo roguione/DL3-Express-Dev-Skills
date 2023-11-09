@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Skill</title>
+</head>
+<body>
+    <h1>Add a new skill:</h1>
+    <form method="POST" action="/skills">
+        <!-- form is responsible for triggering get or post requests -->
+        <!-- id ??? created in my create controller function -->
+​
+        <!-- what attributes do i need to label my data: input name attribute -->
+        <!-- type attribute does?  -->
+        <!-- name -->
+        <div>
+            <label for="name">Add a skill name</label>
+            <input name="name" id="name" required>
+        </div>
+​
+        <!-- rank -->
+        <div>
+            <label for="rank">Add a skill rank</label>
+            <input name="rank" type="number" id="rank" required>
+        </div>
+​
+        <!-- category -->
+        <div>
+            <label for="category">Add a skill category</label>
+            <input name="category" id="category" required>
+        </div>
+​
+        <!-- img tb -->
+        <button type="submit">Create Skill</button>  
+    </form>
+​
+</body>
+</html>
