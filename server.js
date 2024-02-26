@@ -12,7 +12,6 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
-
 // Define routes
 const skillsRouter = require('./routes/skills');
 app.use('/skills', skillsRouter);

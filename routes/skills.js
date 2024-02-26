@@ -10,3 +10,4 @@ router.get('/', skillscontroller.getAllSkills);
 router.get('/:id', skillscontroller.getSkillById);
 
 module.exports = router;
+
